@@ -35,7 +35,7 @@ function draw() {
 
     r = pp[0].x;
     if (r > DIM/sca){
-        console.log("stopped animation")
+        console.log("animation stopped")
         loopit = false;
     }
     stroke(map(r,0,DIM/sca,50,85), 25, 90);
